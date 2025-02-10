@@ -3,7 +3,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a%2!=0&&a<8||a%2==0&&a>=8){
+    if((a%2!=0&&a<8))||(a%2==0&&a>=8)){
         printf("31");
     }
     else if(a==2){
