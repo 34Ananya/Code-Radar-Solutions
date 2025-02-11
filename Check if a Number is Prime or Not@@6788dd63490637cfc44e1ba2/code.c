@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a,i,j;
+    int a,i,j=1;
     scanf("%d",&a);
     i=2;
     while(i<a){
