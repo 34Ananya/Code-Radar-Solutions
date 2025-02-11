@@ -5,8 +5,8 @@ int main(){
     i=2;
     while(i<a){
         if(a%i==0){
-            printf("Not Prime");
             j++;
+            printf("Not Prime");
             break;
         }
         else{
