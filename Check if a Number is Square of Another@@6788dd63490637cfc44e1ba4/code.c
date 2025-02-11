@@ -2,11 +2,11 @@
 int main(){
     int a,b;
     scanf("%d%d",&a,&b);
-    if(a=b*b){
-        printf("Yes");
+    if(a!=b*b){
+        printf("No");
     }
     else{
-        printf("No");
+        printf("Yes");
     }
     return 0;
 }
