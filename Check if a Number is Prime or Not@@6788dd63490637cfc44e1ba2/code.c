@@ -10,10 +10,10 @@ int main(){
         }
         i++;
     }
-    jet:
-    printf("Not Prime");
     if (j==0){
         printf("Prime");
     }
+    jet:
+    printf("Not Prime");
     return 0;
 }
