@@ -1,19 +1,20 @@
 #include<stdio.h>
 int main(){
-    int a,i,j,jet;
+    int a,i,j;
     scanf("%d",&a);
     i=2;
     while(i<a){
-        j=a%i;
-        if(j==0){
-            goto jet;
+        if(a%i==0){
+            printf("Not Prime");
+            break;
+        }
+        else{
+            j=0;
         }
         i++;
     }
     if (j==0){
         printf("Prime");
     }
-    jet:
-    printf("Not Prime");
     return 0;
 }
