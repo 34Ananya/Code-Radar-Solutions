@@ -6,10 +6,10 @@ int main(){
     while(i>=1){
         j=i-1;
         while(j>=1){
-            printf("*");
+            printf("k");
             j--;
         }
-        printf("\n");
+        printf("*");
         i--;
     }
     return 0;
