@@ -10,12 +10,10 @@ int main(){
             j++;
         }
         l=1;
-        while(l<k){
-        printf("*");
-        l++;
+        while(l<=2*l+1){
+            printf("*");
+            l++;
         }
-        printf("\n");
-        k++;
         i++;
     }
     return 0;
