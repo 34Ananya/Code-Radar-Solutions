@@ -9,9 +9,9 @@ int main(){
             printf(" ");
             j++;
         }
-            l=k*i;
+            l=k*i+1;
         j=1;
-        while(j<l){
+        while(j<=l){
             printf("*");
             j++;
         }
