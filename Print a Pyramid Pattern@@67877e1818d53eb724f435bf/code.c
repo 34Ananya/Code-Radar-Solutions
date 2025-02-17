@@ -9,7 +9,7 @@ int main(){
             printf(" ");
             j++;
         }
-        l=1;
+        l=0;
         while(l<=k){
         printf("*");
         l++;
