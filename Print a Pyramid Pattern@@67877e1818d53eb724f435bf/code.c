@@ -11,7 +11,7 @@ int main(){
         }
             l=k*i+1;
         j=1;
-        while(j<l-1){
+        while(j<l){
             printf("*");
             j++;
         }
