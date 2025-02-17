@@ -9,14 +9,14 @@ int main(){
             printf(" ");
             j++;
         }
-        // l=1;
-        // while(l<=(2*k)+1){
-        //     printf("*");
-        //     l++;
-        // }
-        k++;
-        printf("\n");
-        i++;
+        l=1;
+        while(l<=(2*k)+1){
+            printf("*");
+            l++;
+        }
+        // k++;
+        // printf("\n");
+        // i++;
     }
     return 0;
 }
