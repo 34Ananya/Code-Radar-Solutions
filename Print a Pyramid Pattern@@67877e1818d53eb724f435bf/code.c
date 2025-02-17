@@ -9,8 +9,8 @@ int main(){
             printf(" ");
             j++;
         }
-        k=i;
-        while(k<=a){
+        k=1;
+        while(k<=i){
             printf("*");
             k++;
         }
