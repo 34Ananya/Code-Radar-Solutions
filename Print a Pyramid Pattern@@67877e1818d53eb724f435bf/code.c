@@ -10,11 +10,11 @@ int main(){
             j++;
         }
             l=k*i+1;
-            j=1;
-            while(j<=l){
-                printf("*");
-                j++;
-            }
+        j=1;
+        while(j<=l){
+            printf("*");
+            j++;
+        }
         k++;
         printf("\n");
         i++;
