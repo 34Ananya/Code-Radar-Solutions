@@ -12,6 +12,7 @@ int main(){
         l=1;
         while(l<k){
         printf("*");
+        l++;
         }
         printf("\n");
         k++;
