@@ -5,15 +5,15 @@ int main(){
     i=1;
     while(i<=a){
         j=i;
-        // while(j<a){
-        //     printf(" ");
-        //     j++;
-        // }
-        l=1;
-        while(l<=(2*k)+1){
-            printf("*");
-            l++;
+        while(j<a){
+            printf(" ");
+            j++;
         }
+        // l=1;
+        // while(l<=(2*k)+1){
+        //     printf("*");
+        //     l++;
+        // }
         k++;
         printf("\n");
         i++;
