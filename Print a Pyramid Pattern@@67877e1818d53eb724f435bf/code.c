@@ -9,7 +9,6 @@ int main(){
             printf(" ");
             j++;
         }
-        k++;
         if(k%2==0){
             l=k*i+1;
             j=1;
@@ -18,6 +17,7 @@ int main(){
                 j++;
             }
         }
+        k++;
         printf("\n");
         i++;
     }
