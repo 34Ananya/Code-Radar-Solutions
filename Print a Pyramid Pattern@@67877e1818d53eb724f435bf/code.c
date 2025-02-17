@@ -7,11 +7,11 @@ int main(){
         j=i;
         while(j<a){
             printf(" ");
-            k++;
             j++;
         }
         printf("%d",k);
         printf("\n");
+        k++;
         i++;
     }
     return 0;
