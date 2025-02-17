@@ -10,7 +10,7 @@ int main(){
             j++;
         }
         l=1;
-        while(l<k){
+        while(l<=k){
         printf("*");
         l++;
         }
