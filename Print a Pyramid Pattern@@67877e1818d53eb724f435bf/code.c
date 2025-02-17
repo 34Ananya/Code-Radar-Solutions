@@ -9,17 +9,15 @@ int main(){
             printf(" ");
             j++;
         }
-        if(k%2==0){
-            l=k*i+1;
-            j=1;
-            while(j<=l){
-                printf("*");
-                j++;
-            }
+        l=k*i+1;
+        j=1;
+        while(j<=l){
+            printf("*");
+            j++;
         }
+    }
         k++;
         printf("\n");
         i++;
-    }
     return 0;
 }
