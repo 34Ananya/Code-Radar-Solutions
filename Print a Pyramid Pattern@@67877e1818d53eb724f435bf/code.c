@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a,i,j,k=1,l;
+    int a,i,j,k=0,l;
     scanf("%d",&a);
     i=1;
     while(i<=a){
@@ -15,6 +15,7 @@ int main(){
             l++;
         }
         k++;
+        printf("\n");
         i++;
     }
     return 0;
