@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a,i,j,k=1,l=0;
+    int a,i,j,k=0,l=0;
     scanf("%d",&a);
     i=1;
     while(i<=a){
@@ -9,7 +9,7 @@ int main(){
             printf(" ");
             j++;
         }
-            l=(k*1)+1;
+            l=(k*i)+1;
         j=1;
         while(j<=l){
             printf("*");
