@@ -10,7 +10,7 @@ int main(){
             j++;
         }
         l=1;
-        while(l<=(2*k)-1){
+        while(l<=(2*k)+1){
             printf("*");
             l++;
         }
