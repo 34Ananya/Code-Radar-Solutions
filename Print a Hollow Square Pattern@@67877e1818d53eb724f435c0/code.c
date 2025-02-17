@@ -7,10 +7,12 @@ int main(){
         if(i!=1&&i!=a){
             printf(" ");
         }
+        else{
         j=1;
         while(j<a){
         printf("*");
         j++;
+        }
         }
         printf("\n");
         i++;
