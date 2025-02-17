@@ -14,9 +14,9 @@ int main(){
             printf("*");
             l++;
         }
-        // k++;
-        // printf("\n");
-        // i++;
+        k++;
+        printf("\n");
+        i++;
     }
     return 0;
 }
