@@ -5,12 +5,12 @@ int main(){
     i=1;
     while(i<=a){
         j=i;
-        while(j<=a){
+        while(j<a){
             printf(" ");
             j++;
         }
         l=1;
-        while(l<=i*2+1){
+        while(l<=i*2-1){
             printf("*");
             l++;
         }
