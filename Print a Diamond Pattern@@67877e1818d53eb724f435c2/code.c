@@ -17,5 +17,19 @@ int main(){
         printf("\n");
         i++;
     }
+    i=a-1;
+    while(i>=1){
+        j=i;
+        while(j>=1){
+            printf(" ");
+            j--;
+        }
+        l=(2*i-1)
+        while(l>=1){
+            printf("*");
+            l--;
+        }
+        i--;
+    }
     return 0;
 }
