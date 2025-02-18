@@ -4,15 +4,12 @@ int main(){
     scanf("%d",&a);
     i=1;
     while(i<=a){
-        if(i!=1&&i!=a){
-            printf(" ");
-        }
-        else{
         j=1;
         while(j<a){
-        printf("*");
+            if(i==1||i==a||j==1||j==a){
+                printf("*");
+            }
         j++;
-        }
         }
         printf("\n");
         i++;
