@@ -6,7 +6,7 @@ int main(){
     while(i<=a){
         j=1;
         while(j<=i){
-            if(i%2==0&&j%2==0){
+            if(i%2==0||j%2==0){
                 printf("0 ");
             }
             else{
