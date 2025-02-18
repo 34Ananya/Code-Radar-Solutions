@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main(){
-    int a,i,j;
+    int a,i,j,k=1;
     scanf("%d",&a);
     i=1;
     while(i<=a){
-        j=i;
-        while(j<=i+1){
-            printf("%d ",j);
+        j=k;
+        while(j<=i){
+            printf("%d ",k);
+            k++;
             j++;
         }
         printf("\n");
