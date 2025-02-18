@@ -27,7 +27,7 @@ int main(){
         l=1
         while(l<=2*l-1){
             printf("*");
-            l--;
+            l++;
         }
         printf("\n");
         i--;
