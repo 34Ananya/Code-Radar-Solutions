@@ -14,6 +14,7 @@ int main(){
             printf("*");
             l++;
         }
+        k++;
         printf("\n");
         i++;
     }
