@@ -9,7 +9,7 @@ int main(){
         }
         else{
         j=1;
-        while(j<a){
+        while(j<=a){
         printf("*");
         j++;
         }
