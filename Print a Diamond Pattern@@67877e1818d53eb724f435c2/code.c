@@ -19,16 +19,17 @@ int main(){
     }
     i=a-1;
     while(i>=1){
-        j=i;
-        while(j>=1){
+        j=1;
+        while(j<=i){
             printf(" ");
-            j--;
+            j++;
         }
         l=(2*i-1)
         while(l>=1){
             printf("*");
             l--;
         }
+        printf("\n");
         i--;
     }
     return 0;
