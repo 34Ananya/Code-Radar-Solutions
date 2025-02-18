@@ -14,6 +14,11 @@ int main(){
             printf("%d",k);
             k++;
         }
+        k=i-1;
+        while(k>=1){
+            printf("%d",k);
+            k--;
+        }
         printf("\n");
         i++;
     }
