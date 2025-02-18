@@ -2,7 +2,7 @@
 int main(){
     int a,i,j;
     char k='A';
-    scanf("%d",a);
+    scanf("%d",&a);
     i=1;
     while(i<=a){
         j=1;
