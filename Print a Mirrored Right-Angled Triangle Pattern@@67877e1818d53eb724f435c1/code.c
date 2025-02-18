@@ -11,7 +11,7 @@ int main(){
         j=a;
         while(j>=i){
             printf(" ");
-            j++;
+            j--;
         }
         k=1;
         while(k<=i){
