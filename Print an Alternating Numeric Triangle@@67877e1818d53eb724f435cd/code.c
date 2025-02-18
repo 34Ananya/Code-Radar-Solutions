@@ -6,11 +6,11 @@ int main(){
     while(i<=a){
         j=1;
         while(j<=i){
-            if(i%2==0){
-                k=0;
-                printf("%d ",k);
-                k=1;
-                printf("%d ",k);
+            if((i+j)%2==0){
+                printf("1");
+            }
+            else{
+                printf("0 ");
             }
             j++;
         }
