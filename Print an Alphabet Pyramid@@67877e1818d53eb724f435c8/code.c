@@ -8,8 +8,10 @@ int main(){
         j=1;
         while(j<=i){
             printf("%c ",k);
+            k++;
             j++;
         }
+        k='A';
         printf("\n");
         i++;
     }
