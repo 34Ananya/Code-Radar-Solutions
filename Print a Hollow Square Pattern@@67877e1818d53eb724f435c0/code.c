@@ -10,7 +10,7 @@ int main(){
         else{
         j=1;
         while(j<=a){
-            if(j==i){
+            if(j!=1&&i==a){
                 printf(" *");
             }
         printf("*");
