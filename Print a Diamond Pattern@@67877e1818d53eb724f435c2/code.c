@@ -24,10 +24,10 @@ int main(){
             printf(" ");
             j--;
         }
-        l=1;
-        while(l<=2*i-1){
+        l=2*i-1;
+        while(l>=1){
             printf("*");
-            l++;
+            l--;
         }
         printf("\n");
         i--;
