@@ -11,7 +11,7 @@ int main(){
         }
         k=1;
         while(k<=i){
-            printf("%d ",k);
+            printf("%d",k);
             k++;
         }
         printf("\n");
