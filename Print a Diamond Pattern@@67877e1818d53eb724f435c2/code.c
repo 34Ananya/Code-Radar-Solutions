@@ -5,7 +5,7 @@ int main(){
     i=1;
     while(i<=a){
         j=1;
-        while(j<=i){
+        while(j<=a){
             printf(" ");
             j++;
         }
