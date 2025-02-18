@@ -5,9 +5,12 @@ int main(){
     i=1;
     while(i<=a){
         j=1;
-        while(j<a){
+        while(j<=a){
             if(i==1||i==a||j==1||j==a){
                 printf("*");
+            }
+            else{
+                printf(" ");
             }
         j++;
         }
