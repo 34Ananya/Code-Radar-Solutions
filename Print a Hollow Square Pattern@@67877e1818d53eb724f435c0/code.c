@@ -10,6 +10,9 @@ int main(){
         else{
         j=1;
         while(j<=a){
+            if(j==i){
+                printf(" *");
+            }
         printf("*");
         j++;
         }
